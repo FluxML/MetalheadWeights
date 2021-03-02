@@ -20,7 +20,7 @@ function build(version; weights = WEIGHT_DIR,
         artifact_filename = "$model-$version.tar.gz"
         product_hash = create_artifact() do artifact_dir
             mkdir(joinpath(artifact_dir, model))
-            cp(joinpath(weights, weight), joinpath(artifact_dir, model); force=true)
+            cp(joinpath(weights, weight), joinpath(artifact_dir, weight); force=true)
         end
         download_hash = archive_artifact(product_hash, joinpath(build, artifact_filename))
         remote_url = "$url/v$version/$artifact_filename"
