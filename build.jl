@@ -16,7 +16,7 @@ function build(version; weights = WEIGHT_DIR,
 
     # Package up weights
     for weight in readdir(weights)
-        model = basename(weight)
+        model = split(basename(weight), ".")[1]
         artifact_filename = "$model-$version.tar.gz"
         product_hash = create_artifact() do artifact_dir
             mkdir(joinpath(artifact_dir, model))

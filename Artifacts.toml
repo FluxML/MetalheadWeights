@@ -1,39 +1,39 @@
-["densenet121.bson"]
-git-tree-sha1 = "ffc7f7ed1e7f67baca4b76f6c100e0d5042ff063"
+[densenet121]
+git-tree-sha1 = "1326685f4f4b0b29177f5ea625c3528e21b66319"
 lazy = true
 
-    [["densenet121.bson".download]]
-    sha256 = "9bf4c85ab1c6d5a1bd05c693c71323e2d1363bb31e03a774d2e01f935cd648a8"
-    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/densenet121.bson-0.1.0.tar.gz"
+    [[densenet121.download]]
+    sha256 = "0d28b043ba56f38126a295c37e2b29eb0092e8e5336551e564f449013bf7cd1d"
+    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/densenet121-0.1.0.tar.gz"
 
-["googlenet.bson"]
-git-tree-sha1 = "56cc81845fcca30508fe81da18c7ba0d96d72cdd"
+[googlenet]
+git-tree-sha1 = "14d51c2004d1ba74fc8f6168a4da70b6b67a2696"
 lazy = true
 
-    [["googlenet.bson".download]]
-    sha256 = "4f29624b03b59e955a0830897c25eb7245549d9714438b36d5ce0ee835b0304f"
-    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/googlenet.bson-0.1.0.tar.gz"
+    [[googlenet.download]]
+    sha256 = "2592ac69e27e5e347336b4eae9b21dabb5f37d335d0c9a8a452248a250b3be18"
+    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/googlenet-0.1.0.tar.gz"
 
-["resnet50.bson"]
-git-tree-sha1 = "ea3effeaf1ea3969ed5c609f5db5cd0e456ce799"
+[resnet50]
+git-tree-sha1 = "ca9260fcf54ee2f003f97e7da01dab210d19d396"
 lazy = true
 
-    [["resnet50.bson".download]]
-    sha256 = "5bf4a0a5117aaee660844ef42abff0ffce3c00462b384c4b6ca6a712627b7d81"
-    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/resnet50.bson-0.1.0.tar.gz"
+    [[resnet50.download]]
+    sha256 = "a678a4e5ab487bc56f695100d8d4e2907383672ff6b180fcf5cbd31759ab1967"
+    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/resnet50-0.1.0.tar.gz"
 
-["squeezenet.bson"]
-git-tree-sha1 = "e0e53eb402efe4693417db8cbcc31519e74c8c74"
+[squeezenet]
+git-tree-sha1 = "578e8984657ba0506026985f6be1000915b55c29"
 lazy = true
 
-    [["squeezenet.bson".download]]
-    sha256 = "4fc122a16f7a6729e4c357024614bc973a20ca157b6c8e2021043b3fbf8e2023"
-    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/squeezenet.bson-0.1.0.tar.gz"
+    [[squeezenet.download]]
+    sha256 = "825eed761c6645371f5991d18ff830d5b1bfa915799c1c9397e76f68a75e3308"
+    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/squeezenet-0.1.0.tar.gz"
 
-["vgg19.bson"]
-git-tree-sha1 = "072056ec63bf7308cf89885e91852666e191e80a"
+[vgg19]
+git-tree-sha1 = "4b06e604f8de205e01834d91d3905470655ea33b"
 lazy = true
 
-    [["vgg19.bson".download]]
-    sha256 = "db24db0ed75e89063ca05421588380802da79e2787b2479e7d3178ce56d88dc0"
-    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/vgg19.bson-0.1.0.tar.gz"
+    [[vgg19.download]]
+    sha256 = "c292ad4bdfcfb371cfc8584b7192f431d60db2c1dd1620445b2c92eeb22d44be"
+    url = "https://github.com/darsnack/MetalheadWeights/releases/download/v0.1.0/vgg19-0.1.0.tar.gz"
