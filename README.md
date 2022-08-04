@@ -1,5 +1,7 @@
 # MetalheadWeights
 
+**NOTE:** This repository is no longer maintained or used. All model weights are now ported to the [FluxML Huggingface Org](https://huggingface.co/FluxML).
+
 Pre-trained model weight artifacts for [Metalhead.jl](https://github.com/FluxML/Metalhead.jl).
 
 ## Building new weights
